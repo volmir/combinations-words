@@ -1,0 +1,10 @@
+{
+    "name": "volmir/combinations-words",
+    "description": "Drawing up words of letters of other word",
+    "homepage": "https://github.com/volmir/combinations-words",    
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
