@@ -1,13 +1,13 @@
-SnakeJS
+CombinationsWords
 ===============
 
-Implementation of the classic game "Snake" in JavaScript
+Drawing up words of letters of other word
 
 ### Installation
 
 ```sh
 $ cd /path/to/htdocs
-$ git clone https://github.com/volmir/snake-js.git
+$ git clone https://github.com/volmir/combinations-words.git
 $ composer install
 ```
 
