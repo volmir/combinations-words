@@ -2,8 +2,8 @@
 
 namespace App\Helpers;
 
-class Math 
-{
+class Math {
+
     /**
      * 
      * @param int $number
@@ -16,6 +16,5 @@ class Math
             return ($number * self::factorial($number - 1));
         }
     }
-    
-}
 
+}
