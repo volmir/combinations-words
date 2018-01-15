@@ -60,7 +60,7 @@ class Application {
                 }
                 $this->combinations[$i][] = $s;
             } while ($this->permutation->next());
-        }        
+        }  
     }
     
     public function show() {

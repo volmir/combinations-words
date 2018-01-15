@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Helpers\Math;
+
 /**
  * 
  * Search of placements without permutations
@@ -67,7 +69,7 @@ class Permutation {
      * @return int
      */
     public function calcCombinations() {
-        $combination = $this->factorial($this->n) / $this->factorial($this->n - $this->k);
+        $combination = Math::factorial($this->n) / Math::factorial($this->n - $this->k);
 
         return $combination;
     }    
@@ -142,19 +144,6 @@ class Permutation {
      */
     public function getIndex($i) {
         return $this->a[$i];
-    }
-
-    /**
-     * 
-     * @param int $number
-     * @return int
-     */
-    public function factorial($number) {
-        if ($number <= 1) {
-            return 1;
-        } else {
-            return ($number * $this->factorial($number - 1));
-        }
     }
 
 }
