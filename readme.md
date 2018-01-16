@@ -16,3 +16,9 @@ $ composer install
 ```sh
 $ php index.php
 ```
+
+### Tests
+
+```sh
+$ phpunit --bootstrap vendor/autoload.php tests
+```
